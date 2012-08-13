@@ -1,6 +1,8 @@
 body {
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 h1 {
@@ -34,8 +36,8 @@ h2 {
 
 .motto td,
 .demos td {
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
 
 .motto .bbox {
@@ -85,12 +87,15 @@ h2 {
 }
 
 address {
-	border-top: 1px solid #eee;
+	border-top: 1px solid #bbb;
 	font-style: normal;
 	color: #888;
 	text-align: center;
-	box-shadow: 0 -1px 0 #bbb;
+	box-shadow: 0 3px 2px -2px #ddd inset;
 	margin-top: 1em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	border-radius: 4px;
 }
 
 pre {
