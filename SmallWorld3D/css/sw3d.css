@@ -21,10 +21,54 @@ p.lead {
 	font-weight: bold;
 }
 
+#top-nav {
+	position: relative;
+	overflow: hidden;
+}
+
+.page-nav {
+	margin: 0;
+	padding: 1em 0;
+	text-align: center;
+	
+	position: relative;
+	left: 50%;
+	float: left;
+}
+
+.page-nav li a,
+.page-nav li a:visited {
+	color: #26b;
+	padding: 6px;
+	display: block;
+}
+
+.page-nav li {
+	font-family: Arial, sans-serif;
+	display: block;
+	float: left;
+	list-style: none;
+	border: 1px solid #bbb;
+	margin: 0 -1px 0 0;
+	background: #fff url(../images/nback.png) bottom repeat-x;
+	text-shadow: 0 1px 0 #fff;
+	position: relative;
+	left: -50%;
+}
+
+.page-nav .here {
+	padding: 6px;
+	background-color: #ddd;
+	background-image: none;
+	box-shadow: 0 1px 5px #777 inset;
+	color: #777;
+}
+
 h2 {
 	font-family: Arial, sans-serif;
 	font-size: 150%;
 	color: #555;
+	clear: both;
 }
 
 .motto,
